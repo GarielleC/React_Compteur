@@ -1,0 +1,38 @@
+
+.compteur {
+    background: linear-gradient(55deg, rgb(242, 0, 255), rgb(0, 213, 255)); /*couleur en dégradé*/
+    // background-color: rgba(0, 0, 0, 0.36); /* Couleur de fond noire transparente (0.5 pour 50% d'opacité) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre avec 50% d'opacité */
+    border-radius: 3rem; /*Rebord arrondi*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;/*placement du texte*/
+    margin: 1rem;/* Marge de 1 rem autour de l'élément */
+    padding: 1rem; /* Rembourrage de 1 rem à l'intérieur de l'élément */
+}
+
+p{
+    font-size: 5rem;/*taille du texte*/
+    font-weight: bold;/*gras du texte*/
+    color: white; /*couleur du texte*/
+}
+
+button {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: black;
+    border-color: black;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer; /* Curseur change au survol du bouton */
+    transition: background-color 0.8s; /* Animation de transition pour la couleur de fond */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre avec 50% d'opacité */
+  }
+  
+  button:active {
+    color: black;
+    background-color: white;
+  }
+  
